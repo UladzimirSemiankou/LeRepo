@@ -8,14 +8,14 @@ vagrant plugin install vagrant-vbguest
 wget http://download.virtualbox.org/virtualbox/5.0.24/VirtualBox-5.0-5.0.24_108355_el6-1.x86_64.rpm
 yum install VirtualBox-5.0-5.0.24_108355_el6-1.x86_64.rpm
 ```
-![screenshot-root epbyminw2629 -home-student-vagrant-mntlab](https://cloud.githubusercontent.com/assets/20400104/16734282/a9b78c78-478d-11e6-9878-145737824a6e.png)
-![screenshot-root epbyminw2629 -home-student-vagrant-mntlab-1](https://cloud.githubusercontent.com/assets/20400104/16734286/a9cbe7a4-478d-11e6-937f-b488e07d9d1f.png)
+![screenshot-root epbyminw2629 -home-student-vagrant-mntlab](https://github.com/UladzimirSemiankou/LeRepo/blob/vagrant/sources/Screenshot-root@epbyminw2629:-home-Student-vagrant-mntlab.png?raw=true)
+![screenshot-root epbyminw2629 -home-student-vagrant-mntlab-1](https://github.com/UladzimirSemiankou/LeRepo/blob/vagrant/sources/Screenshot-root@epbyminw2629:-home-Student-vagrant-mntlab-1.png?raw=true)
 
 ######2. Initialize new Vagrant project
 ```
 vagrant init sbeliakou-vagrant-centos-6.7-x86_64.box
 ```
-![screenshot-root epbyminw2629 -home-student-vagrant-mntlab-2](https://cloud.githubusercontent.com/assets/20400104/16734284/a9bcc918-478d-11e6-8857-6393ed6f5af2.png)
+![screenshot-root epbyminw2629 -home-student-vagrant-mntlab-2](https://github.com/UladzimirSemiankou/LeRepo/blob/vagrant/sources/Screenshot-root@epbyminw2629:-home-Student-vagrant-mntlab-2.png?raw=true)
 
 ######3. Update configuration to use specific vagrant box (sbeliakou/centos-6.7-x86_64)
 ```
@@ -105,5 +105,5 @@ cp -f /sources/tomcat-users.xml apache-tomcat-8.5.3/conf/
 cp -f /sources/server.xml apache-tomcat-8.5.3/conf/
 apache-tomcat-8.5.3/bin/startup.sh
 ```
-![screenshot-root epbyminw2629 -home-student-vagrant-mntlab-4](https://cloud.githubusercontent.com/assets/20400104/16734287/a9d0337c-478d-11e6-9c27-21cd49dd1d3f.png)
-![screenshot-apache tomcat-8 5 3 - mozilla firefox private browsing](https://cloud.githubusercontent.com/assets/20400104/16734283/a9bc361a-478d-11e6-96c7-a9e6f524f74e.png)
+![screenshot-root epbyminw2629 -home-student-vagrant-mntlab-4](https://github.com/UladzimirSemiankou/LeRepo/blob/vagrant/sources/Screenshot-root@epbyminw2629:-home-Student-vagrant-mntlab-4.png?raw=true)
+![screenshot-apache tomcat-8 5 3 - mozilla firefox private browsing](https://github.com/UladzimirSemiankou/LeRepo/blob/vagrant/sources/Screenshot-Apache%20Tomcat-8.5.3%20-%20Mozilla%20Firefox%20(Private%20Browsing).png?raw=true)
